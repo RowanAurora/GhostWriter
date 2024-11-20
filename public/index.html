@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Ghost Writer</title>
+    <meta charset='utf-8'>
+    <script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js" defer></script> <!-- Include the JavaScript file -->
+    <link rel="stylesheet" href="ghostWriter.css">
+</head>
+<body>
+    <h1>Ghost Writer</h1>
+    <textarea id="textInput" rows="10" cols="50" placeholder="Write your text here..."></textarea><br><br>
+
+    <label for="filenameInput">File Name:</label>
+    <input type="text" id="filenameInput" placeholder="Enter filename"><br><br>
+
+    <p>Total word count: <span id="wordCount">0</span></p>
+
+    <button id="downloadButton">Download as DOCX</button>
+
+    <!-- Hidden element to store text temporarily -->
+    <div id="hiddenText" style="display: none;"></div>
+</body>
+</html>

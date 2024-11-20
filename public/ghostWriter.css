@@ -1,0 +1,27 @@
+@import url("whiteSpaceReset.css");
+
+body {
+  padding-left: 40px;
+  padding-top: 40px;
+  background: rgb(199, 237, 240);
+}
+.backgroundShift {
+  transition: background 1s linear;
+  background:#72898b;
+}
+h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  border: 0px;
+  padding: 20px;
+  width: 900px;
+  height: 500px;
+}
+
+textarea:focus-visible {
+  border: 0px;
+  outline: 0px;
+}
